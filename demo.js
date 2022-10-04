@@ -1,0 +1,12 @@
+console.log("1. My Name is -");
+console.log("              Kashinath Gopal Jeure");
+console.log("2.My Hobbies are - ");
+console.log("              A.Reading B.Travaling C.Listening Music");
+console.log("3.My Personal Strength are -");
+console.info("              A.Hard Working B.Self Motivated C.Honest");
+console.warn("4.My Weakness are -");
+console.warn("              A.Emotional B.I can easily Belive Everyone C.English Communication");
+console.log("5. Sum Of 30+50");
+console.log("            - Output = 80");
+console.log("6. Multiplication Of 49*479");
+console.log("            - Output = 23471");
