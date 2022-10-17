@@ -12,19 +12,19 @@ simple(45);
 
 
 
-function simple(value) {
+function simple_1(value_1) {
 
-    if (value%2==0) {
+    if (value_1%2==0) {
         console.log("The 70 value is:","EVEN");
     }else{
         console.log("The 70 value is:","ODD");
     }
 }
-simple(70);
+simple_1(70);
 
 
-function result(value) {
-    if(value%2==0){
+function result(value_2) {
+    if(value_2%2==0){
         console.log("The 67 value is:","EVEN");
     }else{
         console.log("The 67 value is:","ODD");
@@ -32,14 +32,14 @@ function result(value) {
 }
 result(67);
 
-function result(value) {
-    if(value%2==0){
+function result_1(value_3) {
+    if(value_3%2==0){
         console.log("The 98 value is:","EVEN");
     }else{
         console.log("The 98 value is:","ODD");
     }
 }
-result(98);
+result_1(98);
 
 
 console.warn("=============================== Q.2 ===============================");
@@ -103,7 +103,6 @@ function voting(age) {
  console.warn("=============================== Q.4 ===============================");
 
  function string_1(word) {
-    // var result=word.startsWith("Java");
      if( word.startsWith("Java")){
         console.log("Yes This String Starts With Java");
      }else{
