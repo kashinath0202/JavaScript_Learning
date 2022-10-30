@@ -53,3 +53,23 @@ console.log(Object.keys(Person.fullName));             // keys defined
 console.log(Object.entries(Person.fullName));           //entries defined
 
 console.log(Object.values(Person.fullName));            // values defined
+
+console.log("=========== in operator================");
+let isAvailable = "fullName" in Person;
+console.log(isAvailable);
+console.log("pan" in Person);
+console.log("===========================");
+
+
+const mohitPerson =  {
+  fullName: "Sachin Tendulkar",
+  age: 42,
+  "isMarried": true
+}
+
+for (const key in mohitPerson) {
+  if (Object.hasOwnProperty.call(mohitPerson, key)) {
+    const element = mohitPerson[key];
+    city
+  }
+}
