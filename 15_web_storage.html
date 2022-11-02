@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Web Storage </title>
+</head>
+
+<body>
+
+    <h2> Hallow Word</h2>
+    <script>
+console.log("=================== Session Storage  ========================");
+
+        window.sessionStorage.setItem(11,"Sachin");
+        window.sessionStorage.setItem(22,"Sandip");
+        window.sessionStorage.setItem(33,"Ram");
+        window.sessionStorage.setItem(44,"Sham");
+
+        window.sessionStorage.getItem(44);
+        window.sessionStorage.removeItem(33);
+        window.sessionStorage.clear();
+
+  console.log("=================== Local Storage  ========================");
+        window.localStorage.setItem(99,"Shankar");
+        window.localStorage.setItem(88,"Rohit");
+        window.localStorage.setItem(77,"Rahul");
+        window.localStorage.setItem(55,"Virat");
+
+        window.localStorage.getItem(77);
+        window.localStorage.getItem(88);
+
+        window.localStorage.removeItem(55);
+        window.localStorage.clear();
+         
+    </script>
+</body>
+
+</html>
