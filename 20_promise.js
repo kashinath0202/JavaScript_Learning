@@ -50,3 +50,24 @@ practice.then(function(evenNumbers){
 }).finally(function(){
     console.log("Numbers");
 });
+
+
+console.warn("=================== Promise (Practice ....) ========================= ");
+
+var myDream = false;
+let simple = new Promise(function(hi, by) {
+    if(myDream){
+        hi('Success');
+    }else{
+        by("Unsuccess");
+    }
+}) 
+
+simple.then(function(best){
+    console.log(best);
+}).catch(function(bad){
+    console.log(bad);
+}).finally(function(){
+    console.log("Good....");
+});
+

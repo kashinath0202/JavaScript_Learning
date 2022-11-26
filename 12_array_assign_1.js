@@ -21,7 +21,6 @@ console.log(`6. Replace the element Orange with Kiwi           : ${fruits_season
 
 console.log(`7. Print on Element Form index No. 01 to 04       : ${fruits_seasonal.slice(1,5)}`);
 
-
 let fruitsLength = fruits_seasonal.length;
 let sliced = fruits_seasonal.slice(fruitsLength-3);
 console.log(`8. Last Three Elements Print use length property  : ${sliced}`);

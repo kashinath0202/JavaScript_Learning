@@ -33,3 +33,7 @@ teacher.degree.certificates.certificates_3 = "Full Stack Developer"
 console.table(teacher.degree.certificates);
 console.warn("====================================== Concat All Degrees ======================================");
 console.log(teacher.degree.teacherDegree());
+
+     console.log("agee" in teacher); 
+
+   

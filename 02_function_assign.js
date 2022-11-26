@@ -69,7 +69,7 @@ console.log(values);
 console.warn("Question No-04 (4.3) (Function Additional Return)");
 
 function add_three_numbers(word1,word2,word3){
-//  console.log(word1,word2,word3);
+
  return (word1+word2+word3);
 }
 var message = add_three_numbers("Hello","Good","Morning");

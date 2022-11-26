@@ -13,6 +13,8 @@ console.warn("======================= Q No.02=======================");
 var greatest=function(num1,num2,num3){
 
     var result_1= num1>=num2
- 
+  console.log(result_1);
 }
 var result=greatest(100,101,90);
+
+console.log(result);

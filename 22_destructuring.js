@@ -20,6 +20,7 @@ let person = {
  let { fullName, city, pin, state, isMarried }  = person;
  console.log(fullName, city, pin, state, isMarried);
 
+
  console.warn("================  Array Destructure  =================");
 
  let arrayOfNames = ["Monu", "Golu", "Chottu", "Ponu", "dholu"]

@@ -13,18 +13,31 @@ for(var value=50; value>=40; value--){
 }
 
 console.warn("=== Q.03 WAP to find first 15 odd numbers ===");
+totalCount = 0;
+for(var odd=0; odd<=100; odd++){
+  if (odd%2!=0) {
+    console.log(odd);
+    totalCount = totalCount + 1 ;
+    if (totalCount==15) {
 
-for(var odd=1; odd<=30; odd=odd+2){
-      console.log(odd);
+      break;
+      
+    }
+  }
+     
+
 }
 
 console.warn("=== Q.04 WAP to find first 10 even numbers ===");
-
- for(var num=0;num<=20;num++){
+count = 0;
+ for(var num=0;num<=50;num++){
    
     if (num%2==0) {
         console.log(num);
-
+count = count + 1;
+if (count==10) {
+  break;
+}
 
     }
  }

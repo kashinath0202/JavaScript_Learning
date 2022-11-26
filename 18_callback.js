@@ -145,3 +145,45 @@ function thirdMyFunction(){
 }
 
 firstMyFunction(thirdMyFunction)(); 
+
+console.warn("============== callback==============");
+
+
+function outerOf(value1){
+   console.log("sachin");
+   value1();
+}
+
+function innerOf(){
+  console.log("hiiii");
+}
+outerOf(innerOf);
+
+
+console.log("================= first class citizens (Practice) =====================");
+
+function imram(){
+    console.log("Hi Sachin");
+    return suhas ()
+}
+
+function suhas(){
+    console.log("Hii Sandip");
+}
+imram();
+
+
+console.log("================= higher order function (Practice) =====================");
+
+function sagar(argu){
+    console.log("good Morning");
+    argu();
+    return function anil(){
+        console.log("good night");
+    }
+}
+
+function akashh(){
+    console.log("good eve");
+}
+sagar(akashh)();

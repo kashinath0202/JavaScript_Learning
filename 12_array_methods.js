@@ -79,3 +79,9 @@ for (let index = totalElements1; index >= 0; index--) {
     
 }
 
+console.log("========== Resize array========");
+
+console.log(arrayOfNumbers.length);
+arrayOfNumbers.length = 3;
+console.log(arrayOfNumbers.length);
+console.log(arrayOfNumbers);

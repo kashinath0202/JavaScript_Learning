@@ -40,3 +40,21 @@ function sachin() {
 }
 let finalResult = sachin();
 finalResult();
+
+console.warn("================= Practice closure ======================");
+
+
+var myName3 = "Dveloper"
+function sajid() {
+    var myName2 = "I am "
+
+    var anuj = function () {
+        var myName = "Angular"
+        console.log(myName, myName2, myName3);
+
+    }
+
+    return anuj
+}
+var kashi = sajid();
+kashi();  

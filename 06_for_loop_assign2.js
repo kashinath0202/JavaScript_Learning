@@ -135,7 +135,7 @@ function oddPositionedChars(greet3) {
     oddgreet= greet3.charAt(index);
     
     if (index%2!==0 && oddgreet!=" ") {
-      result=result+oddgreet
+      result=result+oddgreet;
        
     }
     

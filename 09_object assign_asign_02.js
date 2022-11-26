@@ -50,7 +50,6 @@ for (const iterator of allBank) {
    
 }
 
-
 console.warn("========================================================= Details=========================================================");
 
 // for (let index = 0; index < allBank.length; index++) {

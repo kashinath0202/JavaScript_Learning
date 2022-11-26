@@ -14,14 +14,16 @@ let bank_location = {
 
 let bank_sbi_details = Object.assign({},bank_sbi,bank_location)
 
+
 console.log(`1. Using string template result ${bank_sbi_details}`); 
 
 console.warn("====================== Using the  Object.assign () Method  =================================");
 console.table(bank_sbi_details);
 
+console.warn("===================== Using the Spared Operator {...} ==================================");
+
  let bank_detail={...bank_sbi,...bank_location}
 
-console.warn("===================== Using the Spared Operator {...} ==================================");
 
 console.table(bank_detail);
 
